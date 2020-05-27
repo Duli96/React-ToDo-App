@@ -1,0 +1,58 @@
+.list{
+
+    background-color:whitesmoke;
+    width:400px;
+    border-radius: 4px;
+   margin:20px auto;
+    height: 40px;
+   text-align: left;
+    font-weight: bold;
+    font-family: 'Alegreya';
+    font-size: 18px;
+
+}
+
+.deco1 {
+     position: relative;
+    padding: 10px;
+}
+.deco {
+    position: relative;
+    padding: 10px;
+    text-decoration: line-through;
+    font-weight: bold;
+   text-decoration-color: black;
+}
+.buttonicons{
+
+    background-color: red;
+    float: right;
+    width:80px;
+}
+.btns{
+
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 9px 11px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+}
+.list p span {
+   right:10px;
+    cursor: pointer;
+    position: absolute;
+}
+.list p span icons {
+    right:10px;
+    cursor: pointer;
+    position: relative;
+}
+.info{
+    background-color: red;
+    padding: 0px 2px;
+    position: relative;
+    cursor: pointer;
+    right:5px;
+}

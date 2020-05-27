@@ -1,0 +1,25 @@
+.mydaycontainer{
+
+
+    min-height: 100px;
+    background-image: url('images/newback.jpg');
+
+
+}
+.mydaycontainer header h1{
+    font-family: 'New Rocker';
+    font-size: 40px;
+    font-weight:bold;
+    color:darkblue;
+    font-size: 45px
+}
+.myday{
+
+    min-height: 70px;
+}
+
+.myday h3,h5{
+    font-family: 'Quando';
+    font-weight: bold;
+    color:black;
+}

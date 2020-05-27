@@ -1,0 +1,56 @@
+@media screen and (min-width: 415px){
+  .site-container {
+    flex-direction:column;
+  }
+}
+body{
+  background-image: radial-gradient(circle, #051937, #142968, #423398, #7e32c1, #c40ee0);
+
+
+
+
+}
+.Fullcontainer{
+  background-color: #000066;
+  min-height:600px;
+  margin: 30px auto;
+  width:460px;
+
+
+}
+@media screen and (min-width: 415px){
+  .site-container {
+    flex-direction:column;
+  }
+}
+
+.workspace{
+
+  height:75px;
+  text-align: match-parent;
+}
+
+.workspace input{
+  width:250px;
+  height:40px;
+  border:0px;
+  padding: 0 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color: #36096d;
+}
+.workspace input::placeholder{
+  color:gray;
+  font-weight: bold;
+}
+
+.workspace input:focus{
+  outline: none;
+}
+
+.workspace Button{
+  width:110px;
+  padding:8px 10px;
+  cursor: pointer;
+
+}
