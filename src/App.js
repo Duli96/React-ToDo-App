@@ -39,8 +39,6 @@ library.add(faTrash);
 
 
        });
-
-
    }
 
 
@@ -49,12 +47,10 @@ library.add(faTrash);
        e.preventDefault();
          var currentItem = this.state.currentTodo;
 
-
-
          if(currentItem.todo !== "" ){
 
              var itemlist = [currentItem,...this.state.todoList];
-            // console.log(itemlist);
+
              this.setState({
                  todoList:itemlist,
                  currentTodo:{
@@ -63,8 +59,6 @@ library.add(faTrash);
                      completed:false
                  },
                  edit:false,
-
-
          });
          }
      }
@@ -79,15 +73,12 @@ library.add(faTrash);
                 todoList:remainItems
 
                }
-
            );
      }
 
 
 //edit selected item
      editItem = (key) =>{
-
-
          var remainItems = this.state.todoList.filter(item => item.key !== key);
         const sItem = this.state.todoList.find(item => item.key == key);
          console.log(sItem.todo);
@@ -99,9 +90,7 @@ library.add(faTrash);
                     completed:false
                 },
              edit:true,
-
              }
-
          );
      }
 
@@ -125,11 +114,6 @@ library.add(faTrash);
 
             todoList: itemlist
         })
-
-         console.log(itemlist);
-
-
-
 
      }
 
